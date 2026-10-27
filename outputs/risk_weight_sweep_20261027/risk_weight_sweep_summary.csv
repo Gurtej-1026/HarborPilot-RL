@@ -1,0 +1,4 @@
+obstacle_risk_weight,obstacles,disturbances_enabled,episodes,evaluation_seed_start,evaluation_seed_end,dqn_successes,dqn_success_rate,dqn_obstacle_collisions,dqn_boundary_exits,dqn_timeouts,dqn_mean_steps_successful_episodes,dqn_mean_final_distance_successful_episodes,baseline_successes,baseline_success_rate,baseline_obstacle_collisions,baseline_boundary_exits,baseline_timeouts,baseline_mean_steps_successful_episodes,evaluation_csv
+4.0,2,False,200,150000,150199,0,0.0,0,86,114,nan,nan,200,1.0,0,0,0,260.06,outputs/obstacle_count_study_20261027/obstacles_2/evaluation_200/evaluation_results.csv
+1.0,2,False,200,150000,150199,149,0.745,51,0,0,208.0201342281879,19.674527219526627,200,1.0,0,0,0,260.06,outputs/two_obstacle_riskweight1_20261027_full/evaluation_200/evaluation_results.csv
+2.0,2,False,200,150000,150199,199,0.995,1,0,0,232.8894472361809,14.356755209775066,200,1.0,0,0,0,260.06,outputs/two_obstacle_riskweight2_20261027/evaluation_200/evaluation_results.csv

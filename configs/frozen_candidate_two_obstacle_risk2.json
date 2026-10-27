@@ -1,0 +1,85 @@
+{
+  "status": "frozen_submission_candidate_final_test_completed",
+  "purpose": "Record the frozen candidate hyperparameters and the subsequent independent evaluation status. This file does not alter training defaults or model weights.",
+  "environment": {
+    "fixed_obstacles": 2,
+    "disturbances_enabled": false,
+    "max_steps": 320,
+    "observation_version": 3,
+    "reward_version": 3,
+    "obstacle_risk_distance": 100.0,
+    "obstacle_risk_weight": 2.0,
+    "dock_control_weight": 1.0,
+    "shaping_gamma": 0.99,
+    "obstacle_feature_scale": 120.0
+  },
+  "training": {
+    "episodes": 1000,
+    "training_seed_candidate_checkpoint": 17,
+    "curriculum": false,
+    "epsilon_decay_steps": 80000,
+    "learn_every": 4,
+    "warm_start_checkpoint": null
+  },
+  "dqn": {
+    "state_dim": 16,
+    "action_dim": 9,
+    "gamma": 0.99,
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "replay_capacity": 50000,
+    "warmup_steps": 500,
+    "target_update_every": 1000,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "hidden_dim": 128
+  },
+  "candidate_checkpoint": "models/harborpilot_dqn_two_obstacle_risk2_seed17.pt",
+  "development_evaluation": {
+    "episode_seed_start": 150000,
+    "episode_seed_end_inclusive": 150199,
+    "episodes": 200,
+    "warning": "These seeds were reused to compare risk weights and are a development/tuning set, not an untouched final test set."
+  },
+  "notes": [
+    "Seed 17 is the development-selected candidate checkpoint; seeds 29 and 41 are fresh training replicates using the same nominal hyperparameters.",
+    "The candidate checkpoint has been copied to models/ so it can be committed despite outputs/ being ignored by .gitignore.",
+    "The exact historical source that produced all version-3 reward checkpoints was not recovered byte-for-byte; see docs/SOURCE_RECOVERY.md.",
+    "Development episode seeds 150000-150199 were reused during risk-weight tuning and are not independent final-test data.",
+    "Episode seeds 300000-300199 were used once for evaluation of training seeds 17, 29, and 41. Do not reuse for tuning or further confirmation.",
+    "A short reproducibility smoke evaluation used episode seeds 980000-980002 and trajectory seed 990000; these are smoke-test seeds only.",
+    "Episode seeds 400000-400199 remain reserved for future final evaluation after a revised candidate and its training procedure have been frozen."
+  ],
+  "independent_test_used_once": {
+    "episode_seed_start": 300000,
+    "episode_seed_end_inclusive": 300199,
+    "episodes": 200,
+    "evaluate_cli_seed": 250000,
+    "status": "consumed for the one-time independent evaluation of training seeds 17, 29, and 41 on 2026-10-27",
+    "warning": "Do not reuse this episode seed range for further tuning, checkpoint selection, or confirmatory evaluation."
+  },
+  "training_replicates_completed": [
+    17,
+    29,
+    41
+  ],
+  "fresh_training_seeds_completed": [
+    29,
+    41
+  ],
+  "final_test": {
+    "episode_seed_start": 400000,
+    "episode_seed_end_inclusive": 400199,
+    "episodes": 200,
+    "evaluate_cli_seed": 350000,
+    "status": "consumed once on 2026-10-27 after candidate frozen",
+    "dqn_successes": 199,
+    "dqn_success_rate": 0.995,
+    "dqn_collisions": 1,
+    "baseline_successes": 200,
+    "baseline_success_rate": 1.0,
+    "disturbances_enabled": false,
+    "output_dir": "outputs/final_test_seed400000",
+    "warning": "Do not reuse these episode seeds for tuning or confirmatory evaluation."
+  }
+}

@@ -1,0 +1,4 @@
+training_seed,checkpoint,validation_seed_set,max_validation_success_rate,max_validation_episode,test_episode_seeds,episodes,docked,success_rate,obstacle_collisions,boundary_exits,timeouts,mean_steps,mean_final_distance,mean_return,baseline_docked,baseline_success_rate,baseline_mean_steps,baseline_mean_return
+17,outputs/two_obstacle_riskweight2_20261027/harborpilot_dqn_best.pt,10000-10019,1.0,800,300000-300199,200,198,0.99,2,0,0,231.165,15.723972109926805,138.20956427507627,200,1.0,260.18,-18.235541942374436
+29,outputs/independent_validation_seed29/harborpilot_dqn_best.pt,10000-10019,0.05,900,300000-300199,200,14,0.07,5,145,36,244.37,19.77745553455869,-162.2784596085599,200,1.0,260.18,-18.235541942374436
+41,outputs/independent_validation_seed41/harborpilot_dqn_best.pt,10000-10019,0.2,700,300000-300199,200,52,0.26,148,0,0,99.145,125.87580890482626,-45.78963116910206,200,1.0,260.18,-18.235541942374436

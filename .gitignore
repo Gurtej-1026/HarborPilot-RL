@@ -1,0 +1,8 @@
+# Python environments and bytecode
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# This submission includes experiment outputs and evaluation artifacts for reproducibility.
+# New local scratch outputs can be excluded explicitly if needed.

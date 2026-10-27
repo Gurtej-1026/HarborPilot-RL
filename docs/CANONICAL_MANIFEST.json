@@ -1,0 +1,1461 @@
+{
+  "manifest_version": 2,
+  "generated_utc": "2026-10-27T04:09:06+00:00",
+  "canonical_project": "HarborPilot-RL-GITHUB-READY",
+  "note": "SHA-256 and byte-size inventory of all packaged project files except this manifest and its checksum file. Regenerate after intentional changes.",
+  "frozen_candidate_config": "configs/frozen_candidate_two_obstacle_risk2.json",
+  "candidate_checkpoint": "models/harborpilot_dqn_two_obstacle_risk2_seed17.pt",
+  "independent_validation_report": "docs/INDEPENDENT_VALIDATION_REPORT.md",
+  "final_test_report": "docs/FINAL_TEST_REPORT.md",
+  "checkpoint_selection_audit": "docs/CHECKPOINT_SELECTION_AUDIT.md",
+  "seed_ledger": "docs/SEED_USAGE_LEDGER.md",
+  "reproducibility_guide": "docs/REPRODUCIBILITY.md",
+  "stage1_audit": "docs/CANONICAL_STAGE1_AUDIT.md",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "2ae9631f43b03126d7bb0982ddf0da68d28891765c258f57d5581f2b644095c2",
+      "bytes": 239
+    },
+    {
+      "path": ".pytest_cache/.gitignore",
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+      "bytes": 37
+    },
+    {
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+      "bytes": 191
+    },
+    {
+      "path": ".pytest_cache/README.md",
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+      "bytes": 302
+    },
+    {
+      "path": ".pytest_cache/v/cache/nodeids",
+      "sha256": "33e72bb6b34a0c46b2d2bef0fd7b1c655b32c677e1fade6363d5ad5858c4be83",
+      "bytes": 1346
+    },
+    {
+      "path": "README.md",
+      "sha256": "d120814fda0b28f405e9f3e7dd68db4d1abec2719aab5978f6b8c1528cd6abc8",
+      "bytes": 9628
+    },
+    {
+      "path": "configs/frozen_candidate_two_obstacle_risk2.json",
+      "sha256": "a63b55bfa04520ee90d0a4a974066efba8d013907d7d3468aee4ac34bf267cf7",
+      "bytes": 3480
+    },
+    {
+      "path": "docs/CANONICAL_PROJECT.md",
+      "sha256": "8ccec2aea3f3e100c643f05747fc901cc78b7aa3b958fb115ed00f0e58b62542",
+      "bytes": 4114
+    },
+    {
+      "path": "docs/CANONICAL_STAGE1_AUDIT.md",
+      "sha256": "3a7326ed08f135ca823f04774ac3204917d79a7abb006fd881a81fc6a8c5f065",
+      "bytes": 2410
+    },
+    {
+      "path": "docs/CHECKPOINT_SELECTION_AUDIT.md",
+      "sha256": "a81ecb5ccdc9151459647ba40ebcea98b78c586b7afa10fa1beb113ac5e5149b",
+      "bytes": 3326
+    },
+    {
+      "path": "docs/DQN_AGENT_TEST_AUDIT.md",
+      "sha256": "74f8d3217566f16fdf457ae06ffff06a92068afbdd6b99f6456855bee71b0e0f",
+      "bytes": 1085
+    },
+    {
+      "path": "docs/EXPERIMENT_NOTES.md",
+      "sha256": "7a64be1e1e4d197ba38c2a39529f0a9bffa364410abf75c417cfcb821b4e9c57",
+      "bytes": 5853
+    },
+    {
+      "path": "docs/FINAL_TEST_REPORT.md",
+      "sha256": "e153f099dc3acb46b1e2088c7a7f914aa29663fa8e9a2397deb5fd5cee217d73",
+      "bytes": 1749
+    },
+    {
+      "path": "docs/INDEPENDENT_VALIDATION_REPORT.md",
+      "sha256": "f02f135640574d9f3763b124f7c3bb137321967af28f867b2ea35d1a0aacc2ef",
+      "bytes": 4259
+    },
+    {
+      "path": "docs/PROJECT_SPEC.md",
+      "sha256": "42f956dce6ec84e8fa0045833d48666dc072de9c2ee67d57cf2efcad0af43dca",
+      "bytes": 6439
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "50c8c91246f8504b66b74cd1e966c4fae4c3b83fce34758991bec8b88712738d",
+      "bytes": 5123
+    },
+    {
+      "path": "docs/SEED_USAGE_LEDGER.md",
+      "sha256": "5dbcf506ed13d6e878ed2bb20430eaa74e9b20f9d7898613082b26886d49e9a0",
+      "bytes": 2342
+    },
+    {
+      "path": "docs/SOURCE_RECOVERY.md",
+      "sha256": "5dad3f866886858d33fb723c21d43cb6310b174442f2451b8452b69ab123e88b",
+      "bytes": 3079
+    },
+    {
+      "path": "docs/TRAINING_STABILITY_AUDIT.md",
+      "sha256": "7a0013d82ed0dcd2a337bd5374a99a5df809b64da1653e936463855e1f2cccb2",
+      "bytes": 6576
+    },
+    {
+      "path": "harborpilot_rl/__init__.py",
+      "sha256": "bb4d54ac5202aa14d21b6d6a4402307f1dd941bf07ea97579fd15f518d071aee",
+      "bytes": 147
+    },
+    {
+      "path": "harborpilot_rl/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "f9e9954f6a668c10f0ec48431022c098664d260b40565901147406cf4f44e210",
+      "bytes": 329
+    },
+    {
+      "path": "harborpilot_rl/__pycache__/agent.cpython-313.pyc",
+      "sha256": "b7eec53bf95ec5fb4a3c4bac5e6a744b56ab1089ab44db4accc5e59d9d1cef8f",
+      "bytes": 12618
+    },
+    {
+      "path": "harborpilot_rl/__pycache__/environment.cpython-313.pyc",
+      "sha256": "0c8c5e6b511ebf0a5a275cd9607558517486d96e3fa29b6046c6d2768c64118d",
+      "bytes": 24285
+    },
+    {
+      "path": "harborpilot_rl/agent.py",
+      "sha256": "963c6bfd7e5b752287c47392f287e3ef76821204dcb90fc622aeed62bbcfab25",
+      "bytes": 6621
+    },
+    {
+      "path": "harborpilot_rl/baseline.py",
+      "sha256": "f7c03c308cf7aabbb60dbbffcd4e72a82f6b162d005350eaf44e9c7826f2956d",
+      "bytes": 2720
+    },
+    {
+      "path": "harborpilot_rl/environment.py",
+      "sha256": "151e59d44432ebed9a36611ea9ad8a437afed494356d34c046620dc7e5ccbea8",
+      "bytes": 19156
+    },
+    {
+      "path": "harborpilot_rl/evaluate.py",
+      "sha256": "64d9dbf9b9132d1084cf8d960498927077bdb45bdb10edbc06ea82699c13135d",
+      "bytes": 8782
+    },
+    {
+      "path": "harborpilot_rl/train.py",
+      "sha256": "ac1934664878b05e31fd7f7f23bbf971267aed0574efa0f9e88653aef352790e",
+      "bytes": 17182
+    },
+    {
+      "path": "models/README.md",
+      "sha256": "a3f9934779c1eb6571e39c78ed111506b9d7ea8978983b7f99a834d33293f8dc",
+      "bytes": 937
+    },
+    {
+      "path": "models/harborpilot_dqn_two_obstacle_risk2_seed17.pt",
+      "sha256": "6e9c3c3d200280517930bbdf6bb027876471d5f146410ff9879e282c25af9864",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/checkpoint_selection_audit_seed10020_10099.csv",
+      "sha256": "ba901c53f2a5c4b89b296e5c381e1f783b4a12e4f2f2c7274c8eb95a50ad9db1",
+      "bytes": 83427
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed17/baseline_comparison.png",
+      "sha256": "59e8cf69d20701bed4dc6be1c069c500c1160dcad36c65e354fbad49c0860e80",
+      "bytes": 76202
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed17/baseline_trajectory.png",
+      "sha256": "44952b5bc75aac30f22122488acf18b6ec00f03a0f5fbd7ee13b7f0690f640b0",
+      "bytes": 92943
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed17/dqn_trajectory.png",
+      "sha256": "92ffb08a60775d7608635d55b818e0b7673cfcd574c39a0332a0fab9666b9bf1",
+      "bytes": 96440
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed17/evaluation_results.csv",
+      "sha256": "991d454fcf516964dc1f2f1cca7189e780967d1586fc65e39e47680bf65e8bc7",
+      "bytes": 62644
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed29/baseline_comparison.png",
+      "sha256": "3706d5617d99f7f2d20ee9eeb88b99db7f870a14020e929260591434ad96b77a",
+      "bytes": 76104
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed29/baseline_trajectory.png",
+      "sha256": "44952b5bc75aac30f22122488acf18b6ec00f03a0f5fbd7ee13b7f0690f640b0",
+      "bytes": 92943
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed29/dqn_trajectory.png",
+      "sha256": "b26ff9c83d2363a83046abd1ce206922a58c7dcc7af3821ccb057896cef370a0",
+      "bytes": 98093
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed29/evaluation_results.csv",
+      "sha256": "5b6e5fc2b2afd2073609d0e38da7879a3663697b6d6e409ccbbce81f5a764a21",
+      "bytes": 64565
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed41/baseline_comparison.png",
+      "sha256": "a544070b3c47ce582edd936c2ccd7fa4b81f541d8cd3b07a063e9d7cf19f769f",
+      "bytes": 70911
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed41/baseline_trajectory.png",
+      "sha256": "44952b5bc75aac30f22122488acf18b6ec00f03a0f5fbd7ee13b7f0690f640b0",
+      "bytes": 92943
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed41/dqn_trajectory.png",
+      "sha256": "4c2dd50d4655f158b600a4413938e182c672739f85eac29df2bc7bc2754e3d73",
+      "bytes": 85779
+    },
+    {
+      "path": "outputs/final_reserved_eval_seed41/evaluation_results.csv",
+      "sha256": "7774e17dd427bbbb9765edc9ae87b8cd75b8083e9ce984af018c24d5577252ae",
+      "bytes": 61491
+    },
+    {
+      "path": "outputs/final_test_seed400000/baseline_comparison.png",
+      "sha256": "1cb646aad1a0eb8d3191fb9de41ef179c1e5ffe92e8f9c7763d18ab21764d462",
+      "bytes": 75643
+    },
+    {
+      "path": "outputs/final_test_seed400000/baseline_trajectory.png",
+      "sha256": "b7d97f8ed89ceb3283f2df09b2c5fb7ce373f33bc896be5d4fa8a46805034d87",
+      "bytes": 92328
+    },
+    {
+      "path": "outputs/final_test_seed400000/dqn_trajectory.png",
+      "sha256": "35ae834b4a8001bb2585363df6fdfd4d1354b132fdc3e63543d09a1fa32935e8",
+      "bytes": 96031
+    },
+    {
+      "path": "outputs/final_test_seed400000/evaluation_results.csv",
+      "sha256": "af27fc0310eb62dfe148612cdcfd20c446ed2b12fa29df2c0d7a93969af48a2f",
+      "bytes": 62651
+    },
+    {
+      "path": "outputs/independent_validation_20261027/all_evaluation_episodes.csv",
+      "sha256": "94d7bca68a366867bbfbb91d4b49c544b7c6811c53481a329a27680e2940328c",
+      "bytes": 192038
+    },
+    {
+      "path": "outputs/independent_validation_20261027/heldout_outcome_breakdown.png",
+      "sha256": "95eefb52c97c453ba48f79a19587d0092d251effe77f0645c63c738518e32872",
+      "bytes": 46158
+    },
+    {
+      "path": "outputs/independent_validation_20261027/heldout_success_by_training_seed.png",
+      "sha256": "3a7f60327e831dddeec7c8a6f6b359fc3a7ab5698371dca822392529e8afb387",
+      "bytes": 44694
+    },
+    {
+      "path": "outputs/independent_validation_20261027/summary.json",
+      "sha256": "4c1e95e09c325ad6d5e32ea4fc431b1497d9fc8471e9f711d09309a72d30b356",
+      "bytes": 2980
+    },
+    {
+      "path": "outputs/independent_validation_20261027/training_seed_summary.csv",
+      "sha256": "2c7360806831a75ce9dbf7fe1904ac9bed791b9f73afe8b89321504d4927f745",
+      "bytes": 916
+    },
+    {
+      "path": "outputs/independent_validation_seed29/console.log",
+      "sha256": "be8b534017309f6656f290051840adac18ad6873592e0db8945c23b28bb7efd5",
+      "bytes": 5446
+    },
+    {
+      "path": "outputs/independent_validation_seed29/harborpilot_dqn_best.pt",
+      "sha256": "0edade3653c298d6933bebb446f0af0ec19db3691b444bf59555313098abf237",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/independent_validation_seed29/harborpilot_dqn_final.pt",
+      "sha256": "5fccfb6d19cc9bc16ba0297e727bc3beaac0ba951a07b8436d1ed3d6234ee46b",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/independent_validation_seed29/harborpilot_dqn_latest.pt",
+      "sha256": "34bf4c6a37535af57f86a2b2f47f178236da7f96b39cbc40cc815ab750c61811",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/independent_validation_seed29/training_curves.png",
+      "sha256": "11c0bf0e8d1ee233cbbd65a691db9635c1a900a98a78cadfdfcc6a5f35344ae1",
+      "bytes": 213573
+    },
+    {
+      "path": "outputs/independent_validation_seed29/training_log.csv",
+      "sha256": "206d9493a4258b4fcea2d0bfad1ca5cd24fa1bb7e6c9cd641b1162a945f7a947",
+      "bytes": 112793
+    },
+    {
+      "path": "outputs/independent_validation_seed29/validation_log.csv",
+      "sha256": "39a28dd728ea45557c7a6b34e5b8f2ad1792a12f31a083449845f6a2257154de",
+      "bytes": 483
+    },
+    {
+      "path": "outputs/independent_validation_seed41/console.log",
+      "sha256": "5ec8f0e376a01e9d052a5d441ded36cc19d29b99549bb4c3135e81498ca53bce",
+      "bytes": 5274
+    },
+    {
+      "path": "outputs/independent_validation_seed41/harborpilot_dqn_best.pt",
+      "sha256": "e89128ba4deb4bd982772e760cf9c306ebb6fd4bae6a2280677c32b85d4a30fe",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/independent_validation_seed41/harborpilot_dqn_final.pt",
+      "sha256": "0d49cbbb6ee9cf4e4a099b6873f884d200491b46c463c64976887be0f2d066bd",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/independent_validation_seed41/harborpilot_dqn_latest.pt",
+      "sha256": "872308036572937f65c869e50df1314b6bde2092b656f8308ff93cd0bef7656a",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/independent_validation_seed41/training_curves.png",
+      "sha256": "e8c7c5efaf84be2c2212b8472b087347e529d09a463de28b33f79de6b22934ec",
+      "bytes": 244528
+    },
+    {
+      "path": "outputs/independent_validation_seed41/training_log.csv",
+      "sha256": "87bba825a14ecbef99dea63a70d9caf1501bd8ae008b1cd1ab8590a0171e5250",
+      "bytes": 113527
+    },
+    {
+      "path": "outputs/independent_validation_seed41/validation_log.csv",
+      "sha256": "6cd34d8034140cbd23e7bef17c6da3f64c4c1fe1c1e5e84d5efd5bfe124dc0bb",
+      "bytes": 483
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/OBSTACLE_COUNT_EXPERIMENT.md",
+      "sha256": "8b12b38a81f055014880c4b89f5e81b89a9f5af3e516974e1ee273606f5c18d9",
+      "bytes": 4254
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/combined_obstacle_count_summary.csv",
+      "sha256": "48a8351ccfd7aedf7c1728abdfd5b546a2098822195c0c2e65a336bb1ef33737",
+      "bytes": 798
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/dqn_failure_outcomes.png",
+      "sha256": "46ebd0b0d55c3fc9bca1d473279ba8ec73b860943f87a661bd94836792b9f795",
+      "bytes": 49226
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacle_count_success.png",
+      "sha256": "9a91d9f2ca4aa76c950f88db3c55b99cd83d7c7e76a79fac497a32b6a309a443",
+      "bytes": 40756
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/evaluation_200/baseline_comparison.png",
+      "sha256": "76b9310a1ffa2dcd00c82739f6c23dfc2c97f6fa8bfbd33350886e20e823fd6e",
+      "bytes": 79318
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/evaluation_200/baseline_trajectory.png",
+      "sha256": "3c8fb56c85ac0380b9d6832d7606a8c470b0e11f89d618e889286afdc2e27e50",
+      "bytes": 65224
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/evaluation_200/dqn_trajectory.png",
+      "sha256": "a4bfdab4a54d0fceaec74cf736e06168aa105e6906ae9c5c8950a983081b4f6f",
+      "bytes": 59541
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/evaluation_200/evaluation_results.csv",
+      "sha256": "7e5c7e78a21686bf1ac13eea5352e5adde62f6e94d8b55a20b17e870c7b6d652",
+      "bytes": 61953
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/harborpilot_dqn_best.pt",
+      "sha256": "3311165de2fd0f1c6280fa02af48164f6d2b2f72334c7a47dcf840de0089b18b",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/harborpilot_dqn_final.pt",
+      "sha256": "9a94c7a4d91e6225dee5fb423af6fbc05bf64ca1ccdd4b763aeb37d22bdcc86f",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/harborpilot_dqn_latest.pt",
+      "sha256": "e364d7da01993a663664f0408c28b913669bd1bc533225fb349659188ae57cb0",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/train_console.log",
+      "sha256": "208321c0bdbc12944e7bfe1de79d5f4625f56390522130f04886fddeb4182980",
+      "bytes": 5188
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/training_curves.png",
+      "sha256": "f1d203e271b9275e2f692467beb9fbec0d638c176318f2a6497e7b66d94afddd",
+      "bytes": 146167
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/training_log.csv",
+      "sha256": "7a4f0ac9a7cade1a9a9bfa630e437e25352de1188fcb806a193d5bb2d9ed2fd3",
+      "bytes": 102194
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_0/validation_log.csv",
+      "sha256": "30882f32ff5268e88353bdb99b153defce72921de09ba5bb3f240c2030f6c9de",
+      "bytes": 477
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_1/evaluation_200/baseline_comparison.png",
+      "sha256": "c6227b3cc1bec911c82ed6afc8e3b0a283fa1ad6e21fa74b6489f463e12122d9",
+      "bytes": 72727
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_1/evaluation_200/baseline_trajectory.png",
+      "sha256": "1c14825f6518ccf01099e35482ab9697dfc0920600e95e8657efd441346c6711",
+      "bytes": 79832
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_1/evaluation_200/dqn_trajectory.png",
+      "sha256": "cbbaad62412d0d5e52aa5de5f9698c69266867f9188cd627b9446561a22a8772",
+      "bytes": 85674
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_1/evaluation_200/evaluation_results.csv",
+      "sha256": "1d4ac6a6fb8c8b8a8ad7fa4bfa202574cfb75f3234c282f9aa060e9b0f82dc95",
+      "bytes": 62206
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_1/harborpilot_dqn_best.pt",
+      "sha256": "53ab9a8269e4324c03467607b62b38470a848353459101bb6c16663c6d956072",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_1/training_curves.png",
+      "sha256": "8e1f8b6d9fc7265302e76cab8992c4c48489b7970ac1da69ffb4212ce6dc7353",
+      "bytes": 243069
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_1/training_log.csv",
+      "sha256": "a904fc413e95e4405ecc51e2d23a4664e742e49a5534dd2c71ae07a565afd3d7",
+      "bytes": 109951
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_1/validation_log.csv",
+      "sha256": "39de910cdb42595c8aae17ac3ea8be41bd140f1e9e6a582f8ec7ec10cc47e79f",
+      "bytes": 479
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/evaluation_200/baseline_comparison.png",
+      "sha256": "3d06169ed849a6736f0d4677851eec9d484f0c69ba7028cbb770569c3bb981c1",
+      "bytes": 71201
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/evaluation_200/baseline_trajectory.png",
+      "sha256": "386f2dc9b4dd966e1deb7e2f09a6fd58c7a55957b8438e7962c3fbd824262799",
+      "bytes": 92962
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/evaluation_200/dqn_trajectory.png",
+      "sha256": "72a12b70c2d73a010e34fae0bb05330e92661aa8d521303f3f201e60ca713a72",
+      "bytes": 98378
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/evaluation_200/evaluation_results.csv",
+      "sha256": "116dc965dcb7337ab57e5b399d00ea4230f1a103a976756e4064ae999b3a79af",
+      "bytes": 62671
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/harborpilot_dqn_best.pt",
+      "sha256": "9f0b32d1e74c10298de5338e8bc46f276a9a41b5fd76b2dfaae93378ac9bbc04",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/harborpilot_dqn_final.pt",
+      "sha256": "6fa224233971e376de1d3c4ec05e461e55c9994a93728447c18333aa4eac21c5",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/harborpilot_dqn_latest.pt",
+      "sha256": "ba96a30d8e1fce1197f531976c74de312be46c672d36d85b85ac0761f56fa647",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/train_console.log",
+      "sha256": "9fd21ae744fa42020f182dab215e5e53edad0ae5bd78cd21c14ce49e6cdc0465",
+      "bytes": 5256
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/training_curves.png",
+      "sha256": "9ac2538d19fe5b7454aef3c94030da778abbd61e6b62d41b88138dbed7739df3",
+      "bytes": 185615
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/training_log.csv",
+      "sha256": "65124c83947a586c25b2d9c1fca770eb732a0e22c03d5ada6413efb34d2e453c",
+      "bytes": 115773
+    },
+    {
+      "path": "outputs/obstacle_count_study_20261027/obstacles_2/validation_log.csv",
+      "sha256": "6ba258c0eb58afafbbf50b0da21b245f4a7c8649848812e5bc430408f70a4ee4",
+      "bytes": 487
+    },
+    {
+      "path": "outputs/phase2_bodyframe_1000/harborpilot_dqn_best.pt",
+      "sha256": "d0c108f463b7873ffe2d174bc9484436f41487dce6066482018cf926c3ef0ec7",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_bodyframe_1000/harborpilot_dqn_latest.pt",
+      "sha256": "3afb66a1b9a121cf0b95638eaa4fcf28cb499e774c323c8e6bec1b72c8db8837",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_bodyframe_1000/training_log.csv",
+      "sha256": "4aaf2140a5406f5853a9b0a29bfcaf0aed9559fea7b4296763777d95f1a14d0a",
+      "bytes": 110395
+    },
+    {
+      "path": "outputs/phase2_bodyframe_1000/validation_log.csv",
+      "sha256": "05af4eedabe16c7cb91ee67c99ef7b313089d6202177b1dbc1efcb1ef9f6061a",
+      "bytes": 444
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/evaluation/baseline_comparison.png",
+      "sha256": "94e8eae792cbe51ef6d9aeb5aa49f934f62b8285d3db954c39dcf12f6ff512bf",
+      "bytes": 79640
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/evaluation/baseline_trajectory.png",
+      "sha256": "9ea7931a14987803d8740572f6a5b7046a3d114f1d1173b348777d02ae945623",
+      "bytes": 79093
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/evaluation/dqn_trajectory.png",
+      "sha256": "e9dbdb1a4f7bf0a9c13a88bdd24164b9cbbafc187b770ef1dcd070947d780cb3",
+      "bytes": 83287
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/evaluation/evaluation_results.csv",
+      "sha256": "bfb22ac978d70dfccfb41e6c534fbea91477af756d18a900b293afb0f454b006",
+      "bytes": 15401
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/harborpilot_dqn_best.pt",
+      "sha256": "b1216f91da719a9b9152b2dc5d290b6904d59ba7949034d021d61eb703e17de6",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/harborpilot_dqn_final.pt",
+      "sha256": "cc0908f4a71aad237d3da4a06e194016290d76b1266fb584caa5d0135ced7c03",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/harborpilot_dqn_latest.pt",
+      "sha256": "9d7ec7020caa03e5647f7544b708643bd9ea23e1343d8d967e63d4af8067329d",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/training_curves.png",
+      "sha256": "46205ab5bad23f1b86f412e1f1289efecb223c81487e14decc4f25474ea1cd64",
+      "bytes": 178835
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/training_log.csv",
+      "sha256": "917ae4523515dfef4131f8b7e36721cc2a7cb995c22af2e4a1408073413a03b0",
+      "bytes": 112061
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/training_stdout.log",
+      "sha256": "96a44c099ac778d2b55ae44aa1ae85eed1c72c227e5d12367efd5a1b5e2fdae3",
+      "bytes": 5301
+    },
+    {
+      "path": "outputs/phase2_bodyframe_final/validation_log.csv",
+      "sha256": "903d2a341c4bf8ad3be879ae58d7eeabd1c49df10345b91c5f0351928760e87a",
+      "bytes": 483
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/evaluation/baseline_comparison.png",
+      "sha256": "b2eaba0879a9cdc8f0e3bf63047eb801a2722888dcd0b8c3d0dd3c84930bed94",
+      "bytes": 79007
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/evaluation/baseline_trajectory.png",
+      "sha256": "9ea7931a14987803d8740572f6a5b7046a3d114f1d1173b348777d02ae945623",
+      "bytes": 79093
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/evaluation/dqn_trajectory.png",
+      "sha256": "f2d1b04a5694632806c73681112314c696c817001e1c8b271e597d09cee6d967",
+      "bytes": 79396
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/evaluation/evaluation_results.csv",
+      "sha256": "ded00608b2e7ba4868cef39851076c6dcaa0d68120a4c7c03499eebf765996d2",
+      "bytes": 15290
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/harborpilot_dqn_best.pt",
+      "sha256": "6658ff4b148b49c4d66c81ba10d174dda50e610034b043fa13fc657dcc557ca3",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/harborpilot_dqn_final.pt",
+      "sha256": "e2c2c7e8613ffc904dfa9e6030b7c46f2c0b55442706b80e447d011f17f7c79c",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/harborpilot_dqn_latest.pt",
+      "sha256": "0653c0d6bf62ed56da3ed2f2d5ec5968df1f243674c6c45bab145738576c9a50",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/train_stdout.log",
+      "sha256": "0a175af9af72e9b514cc280ad4e61731a6db7af1c7f5de7751b7923791c7f2db",
+      "bytes": 5165
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/training_curves.png",
+      "sha256": "d44aa87e6cf9ff3d6443dc2617977a73db207219bd8c1a6821595a59ea3bb1b1",
+      "bytes": 202977
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/training_log.csv",
+      "sha256": "2bdc8e99f87d562278b287f11d423fe4d97c9c1aa1b3e185e1b584b8174fed97",
+      "bytes": 111801
+    },
+    {
+      "path": "outputs/phase2_bodyframe_v4/validation_log.csv",
+      "sha256": "1a9767986aed8436992d0ae28c3e0cdc9857225c6d70177914cf395231e766e4",
+      "bytes": 480
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3/harborpilot_dqn_best.pt",
+      "sha256": "755ca663339b05bfd03449ab661c6cdbb4a55f758a62b4d362664a4fb7bceb7a",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3/harborpilot_dqn_latest.pt",
+      "sha256": "840395cd5218ff1a5258e1ccfa7ba760136fdf203a1505232f2799707c747801",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3/training_log.csv",
+      "sha256": "2086bf75845a1f22358cf07f64902548b60aabf0e58f42a874974a403ba1eeb6",
+      "bytes": 62117
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3/validation_log.csv",
+      "sha256": "78e202124843ea3466915e70fc388d2fbf11dcd9bb06aa53b9cac25ee953479a",
+      "bytes": 292
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/evaluation/baseline_comparison.png",
+      "sha256": "84fc5d99d514e9e89d6e404c056e9ab6022dc5a498e98cabe9352814dc17d036",
+      "bytes": 73426
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/evaluation/baseline_trajectory.png",
+      "sha256": "9ea7931a14987803d8740572f6a5b7046a3d114f1d1173b348777d02ae945623",
+      "bytes": 79093
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/evaluation/dqn_trajectory.png",
+      "sha256": "537ab9e93c48e7443b8251933fe30c167733b4243ffbe66c2f94ada2c1feba03",
+      "bytes": 85800
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/evaluation/evaluation_results.csv",
+      "sha256": "37baf75cfe4306797206c60b5ee782b9d89a14029ad8250fe558b949314d596e",
+      "bytes": 15502
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/evaluation_200/baseline_comparison.png",
+      "sha256": "c6227b3cc1bec911c82ed6afc8e3b0a283fa1ad6e21fa74b6489f463e12122d9",
+      "bytes": 72727
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/evaluation_200/baseline_trajectory.png",
+      "sha256": "1c14825f6518ccf01099e35482ab9697dfc0920600e95e8657efd441346c6711",
+      "bytes": 79832
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/evaluation_200/dqn_trajectory.png",
+      "sha256": "cbbaad62412d0d5e52aa5de5f9698c69266867f9188cd627b9446561a22a8772",
+      "bytes": 85674
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/evaluation_200/evaluation_results.csv",
+      "sha256": "1d4ac6a6fb8c8b8a8ad7fa4bfa202574cfb75f3234c282f9aa060e9b0f82dc95",
+      "bytes": 62206
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/harborpilot_dqn_best.pt",
+      "sha256": "53ab9a8269e4324c03467607b62b38470a848353459101bb6c16663c6d956072",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/harborpilot_dqn_final.pt",
+      "sha256": "fdaf588c8d944181346d4d79e51eb46d6441bb781a10c45f8d749dfccbe7a80e",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/harborpilot_dqn_latest.pt",
+      "sha256": "cc5497cc769f3f2c6a9d0083cc6cb17762c92c6762db5f19a42022f548e77316",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/train_stdout.log",
+      "sha256": "609cd9819c281f22e977a5e16076e1e5d1aba3f13f913655a7bb1453a66e47c4",
+      "bytes": 5214
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/training_curves.png",
+      "sha256": "8e1f8b6d9fc7265302e76cab8992c4c48489b7970ac1da69ffb4212ce6dc7353",
+      "bytes": 243069
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/training_log.csv",
+      "sha256": "a904fc413e95e4405ecc51e2d23a4664e742e49a5534dd2c71ae07a565afd3d7",
+      "bytes": 109951
+    },
+    {
+      "path": "outputs/phase2_hybrid_reward_v3_clean/validation_log.csv",
+      "sha256": "39de910cdb42595c8aae17ac3ea8be41bd140f1e9e6a582f8ec7ec10cc47e79f",
+      "bytes": 479
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/evaluation/baseline_comparison.png",
+      "sha256": "df710f60be5348f8cd59d71eef52971ac8d60d61e22ed73c7ba4f22e44d459b7",
+      "bytes": 75763
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/evaluation/baseline_trajectory.png",
+      "sha256": "9ea7931a14987803d8740572f6a5b7046a3d114f1d1173b348777d02ae945623",
+      "bytes": 79093
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/evaluation/dqn_trajectory.png",
+      "sha256": "09e09a14519b7d3ea304eeaf91a67fba2d20110380e9fc7cb884556dce6a76bb",
+      "bytes": 84956
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/evaluation/evaluation_results.csv",
+      "sha256": "6088a6a21d3d7e47e90a45af6df17154e03941305b87c0d9ffefb24b344a626f",
+      "bytes": 15726
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/harborpilot_dqn_best.pt",
+      "sha256": "b27115fd6957e06bea264aac7e96fd327f4d0566ca47f426b1f9b7631399f6e3",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/harborpilot_dqn_final.pt",
+      "sha256": "f80d081f8723ab8ea879ea94ee05d14f8a1ade071966e28694e3091007282a69",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/harborpilot_dqn_latest.pt",
+      "sha256": "72c639132f587b528c21abb07e8cac7d63c1742c3c8c6c2312601e3cac42a55b",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/training_curves.png",
+      "sha256": "ca99eebc9929c0daad6a7ea05a83f29d610903476b3cac7187f30888cae17376",
+      "bytes": 160816
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/training_log.csv",
+      "sha256": "62bb4171a1df37a4a1d091d5167c085cd7dc5ea1a32705eaddf413352530274f",
+      "bytes": 112652
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_default_epsilon_1000/validation_log.csv",
+      "sha256": "df6a802658637405c8c36a7f4e09278c6759f8311d24994cc1dc76a7f6666520",
+      "bytes": 486
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/evaluation/baseline_comparison.png",
+      "sha256": "600b70dca9bb400cc9f65f2f5107b1eb83ce3a8cc2d35ce1a61f22e7f7cf7ad6",
+      "bytes": 80041
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/evaluation/baseline_trajectory.png",
+      "sha256": "9ea7931a14987803d8740572f6a5b7046a3d114f1d1173b348777d02ae945623",
+      "bytes": 79093
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/evaluation/dqn_failure_seed50019.png",
+      "sha256": "a4dee8c18195a15e77471897c4bf7e32b15b58f77d201fe1ae12a41fed489717",
+      "bytes": 75603
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/evaluation/dqn_success_seed50017.png",
+      "sha256": "00a9e530c07d7ac0860a7bee18137ddc837692d31a02825df6d573f2d69fffee",
+      "bytes": 83120
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/evaluation/dqn_trajectory.png",
+      "sha256": "e789f6b962b48735171b29bc5191624702b51167280a6627a788954eec30d296",
+      "bytes": 75734
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/evaluation/evaluation_results.csv",
+      "sha256": "36bfbb7f6b8b7ee112a2bd69aef06a8eea80694fd10535c06309a4389e35a214",
+      "bytes": 15441
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/harborpilot_dqn_best.pt",
+      "sha256": "51761bf81012c9c386313714dc7eb6ff3acde6cbc90de3ec07c8e5de1f90f04b",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/harborpilot_dqn_final.pt",
+      "sha256": "a62370fbc3a9f775d2b658c70a4318a0868d6babccfe782036921b2494046175",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/harborpilot_dqn_latest.pt",
+      "sha256": "31ac0ee663a286bc00398c742f63cab746f7033f3bbff1701ef352bb1a1d4f5c",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/training_curves.png",
+      "sha256": "90398ed686392434f5c6d37bffea5aa350af53c731dc02ac3fdc20f45e57fcd4",
+      "bytes": 144597
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/training_log.csv",
+      "sha256": "fc29e657113ac5928ba8c1881b887bdb15578c67bf88610228a59a3546bf5a5d",
+      "bytes": 112740
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_slow_epsilon/validation_log.csv",
+      "sha256": "2e160395cd1a6b1db9e9f0e7ead48b3c8f7959b7700dd7458ca4306009a8986c",
+      "bytes": 484
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/evaluation/baseline_comparison.png",
+      "sha256": "8abc9bdbe4746eb67ea23034c759b1e5fc1c43298c72cfd1a988164ea80869d4",
+      "bytes": 70345
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/evaluation/baseline_trajectory.png",
+      "sha256": "9ea7931a14987803d8740572f6a5b7046a3d114f1d1173b348777d02ae945623",
+      "bytes": 79093
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/evaluation/dqn_trajectory.png",
+      "sha256": "26872f0fe7ccc8c8541cc8239216a3c4e04c9ce959259e512ee75a28980a34af",
+      "bytes": 73274
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/evaluation/evaluation_results.csv",
+      "sha256": "7c605507b432ef1a534d487d0cc86ceccec25d7b3bf109c5e6d80759fabbe0b3",
+      "bytes": 15324
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/harborpilot_dqn_best.pt",
+      "sha256": "4d1f8f89936cb69ef328953d6989815d612d4466d22a5c3c033692d4ae23051c",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/harborpilot_dqn_final.pt",
+      "sha256": "5d7902f80a38114c8358f3f12eb264b547128792409d6ee98c5f29ff8be80d34",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/harborpilot_dqn_latest.pt",
+      "sha256": "de53f2de04dc58b9ae6c8e55926d81c9c798e50bfb40266344a411bc90387108",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/training_curves.png",
+      "sha256": "4a04a0e5ab8992502d231c48bb4d882b78ba01fc1322dff8d06fcb72aa04b378",
+      "bytes": 159599
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/training_log.csv",
+      "sha256": "e2a32f840b31a41ddd01e8ffa1652e2b51d36ad7c24a1927cb93a520cd22035d",
+      "bytes": 56299
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v1/validation_log.csv",
+      "sha256": "3be4a82c2ee0c84a9a46ae5ac2c4640780fbc4b172a8c6284dd2e1fb40b58f6e",
+      "bytes": 292
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/evaluation/baseline_comparison.png",
+      "sha256": "c1dfc18806b652654421a822282ef67729542890375d7e4f9d984ff95c588c6f",
+      "bytes": 64385
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/evaluation/baseline_trajectory.png",
+      "sha256": "9ea7931a14987803d8740572f6a5b7046a3d114f1d1173b348777d02ae945623",
+      "bytes": 79093
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/evaluation/dqn_trajectory.png",
+      "sha256": "33ace9c220ab61c4e1ae733590534efc06a194b6f42d890272edfd3cf33da7c8",
+      "bytes": 81291
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/evaluation/evaluation_results.csv",
+      "sha256": "5f156f13d068e515aa95c583cb99fcb1334aa34423f076603573ea1e7e4288a5",
+      "bytes": 15483
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/harborpilot_dqn_best.pt",
+      "sha256": "897e898719ba2b5d81f30da57acc036d72fc0a43cfdada3137eb1a3efd52b293",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/harborpilot_dqn_final.pt",
+      "sha256": "b03c6871a892cfc10046b33a92fb31a12d84b3c1cefecb7954fa085b79e7df26",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/harborpilot_dqn_latest.pt",
+      "sha256": "432f402db9247bc37be696400c9ec81b083eea4180e86e7175747333274b750c",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/training_curves.png",
+      "sha256": "e4682e264370d38ed36e10412e0e86c662843036e2c904e58e4f4e8920e64443",
+      "bytes": 138884
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/training_log.csv",
+      "sha256": "12546a424782a0caf81d07d6240589018ae4cdf354e5a2624b4593bf9405dcdc",
+      "bytes": 58076
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_v2/validation_log.csv",
+      "sha256": "8d4d78b5c871a123bcf4b7cb8283d9f03b998bcfc18d3fe1ed746eb2c2f3ba2f",
+      "bytes": 291
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_warmstart/harborpilot_dqn_best.pt",
+      "sha256": "ed1fa3d5d105a56f7d59da59e88f1390f3740d0af07eb20e505e759559655b69",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_warmstart/harborpilot_dqn_final.pt",
+      "sha256": "6d0fa213576dcd0133dc0823f693459ced9b110ff522937979f849c9911ff2f3",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_warmstart/harborpilot_dqn_latest.pt",
+      "sha256": "56aa553a3693ba701d0c89a06f2a935ffae989a9562d7a9a958ad53326332ced",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_warmstart/training_curves.png",
+      "sha256": "fd85f721463656715623a1531ff7f9e581d5e96517f2a66032e2105f65b15b48",
+      "bytes": 174037
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_warmstart/training_log.csv",
+      "sha256": "43cea96f01ad6c45e2242aa258b4fe009a639f217583324043a4856c598902f6",
+      "bytes": 56186
+    },
+    {
+      "path": "outputs/phase2_one_obstacle_warmstart/validation_log.csv",
+      "sha256": "a59d8aa9a6ca29807b83fbb50bb3915d6233e919048d9ede762426f83632ee0c",
+      "bytes": 292
+    },
+    {
+      "path": "outputs/phase2_open_water_pretrain/harborpilot_dqn_best.pt",
+      "sha256": "85188841eca051bbb9c0c0dbcba8ce6862947aaed2f64d0b1c189475d6effb25",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase2_open_water_pretrain/harborpilot_dqn_final.pt",
+      "sha256": "2bebae7bc9a4b220efacba9bcc19431a2c8b131c88d42d7b544e5adea2872494",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase2_open_water_pretrain/harborpilot_dqn_latest.pt",
+      "sha256": "cfca3dde63df312cd6f043a50cd5c6f7a72dd7ca13f78e53311dddc0b9de630f",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase2_open_water_pretrain/training_curves.png",
+      "sha256": "f74c5911bf5cd5afaf3e5eb4ec4a85e8913595476bc36d97be864397755cf7c2",
+      "bytes": 159261
+    },
+    {
+      "path": "outputs/phase2_open_water_pretrain/training_log.csv",
+      "sha256": "9474758099637f60d408308166665f40c0ffc55bb5e42c834d866f8343c564f7",
+      "bytes": 20668
+    },
+    {
+      "path": "outputs/phase2_open_water_pretrain/validation_log.csv",
+      "sha256": "674f2fc61dc9be05a256074e3f36a798f16d05e19939470c7ab1f095e0591aba",
+      "bytes": 172
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/evaluation_200/baseline_comparison.png",
+      "sha256": "8e264df9a6fe39ee706f87c8bacdaf5a6a7bccb651cd58078dc005ab40a23a75",
+      "bytes": 68492
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/evaluation_200/baseline_trajectory.png",
+      "sha256": "98c53a4b65bf9d8d5812f06873018b06010e204b13ac46e8f723bdfd57ad4d4d",
+      "bytes": 78400
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/evaluation_200/dqn_trajectory.png",
+      "sha256": "23d51decef54b97cdd508475656d0a9e7358f5614ef93eb19e5da1e207cef1ea",
+      "bytes": 80849
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/evaluation_200/evaluation_results.csv",
+      "sha256": "fa7f23ff3e0b76b1fe8ad722af5b3379c3081d8405a905af8da1b0d96411eed3",
+      "bytes": 63037
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/harborpilot_dqn_best.pt",
+      "sha256": "b7c140c7f13feea18af951b85185353313f251dd8024cf8a54fb2104ff950b25",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/harborpilot_dqn_final.pt",
+      "sha256": "5fc4caddf015d0a30e2b811560c29eb515434b4572328662f4ea23fe94e294af",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/harborpilot_dqn_latest.pt",
+      "sha256": "6974110943bee8579d148f855f99f4b9e0cb51ba557b200dc2570a7e86c820e5",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/train_stdout.log",
+      "sha256": "2fdd790a3e312c9be7c214401d5f5e1ca1ae2e4ec2d7b51936ebfdff51856753",
+      "bytes": 5381
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/training_curves.png",
+      "sha256": "4fadb026bced9141f5e9075b927eeed6fadc5fdbb9b58e0b2dd1eddc01271aa4",
+      "bytes": 218639
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/training_log.csv",
+      "sha256": "7693b241f5719fc8cab37de58ae0db5bf7fe06b0c59c74df476e1c890391d105",
+      "bytes": 113981
+    },
+    {
+      "path": "outputs/phase3_dock_control_weight5/validation_log.csv",
+      "sha256": "5a6c357c88566d69886a016291019ef7dab9bb074b85900c0ea22b52c0bd417e",
+      "bytes": 488
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/diag_seed150001_baseline.png",
+      "sha256": "ca7f7c474fda766b2a5616efcd488d87d2c634c79136112e9625bd7735fb12e6",
+      "bytes": 75998
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/diag_seed150001_dqn.png",
+      "sha256": "2522c81a5c8d91229256c0e50d2c6b589108ccbdff45c500c9602c4a10973071",
+      "bytes": 89560
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/evaluation_200/baseline_comparison.png",
+      "sha256": "8ca7da90a6f794030efe5d5696dfda26f5a99016691f15d0b4bac74a57ae930e",
+      "bytes": 74522
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/evaluation_200/baseline_trajectory.png",
+      "sha256": "98c53a4b65bf9d8d5812f06873018b06010e204b13ac46e8f723bdfd57ad4d4d",
+      "bytes": 78400
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/evaluation_200/dqn_trajectory.png",
+      "sha256": "df15a54200fffcdcecf8dba4a0d0f604861b8222a4852b3813a29bd3019a4ba5",
+      "bytes": 85714
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/evaluation_200/evaluation_results.csv",
+      "sha256": "03a0a35e36fc853f40f29112e658558dba06fc957183b5c3f30bf9bada30807e",
+      "bytes": 64107
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/harborpilot_dqn_best.pt",
+      "sha256": "73b479108c34f54d04adb6dabc090011cccf848b2c1e9632e02908950db1a6bc",
+      "bytes": 83441
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/harborpilot_dqn_final.pt",
+      "sha256": "79cd9d3f47ca77a6085a1a7c0a41df7b2ae6587a2d57bf7eebc3d08d8e2de7b1",
+      "bytes": 83453
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/harborpilot_dqn_latest.pt",
+      "sha256": "c67a740ce55869f29d60c92ac5fcd5f84c4c96a8022ec99c65395711eb4377dc",
+      "bytes": 83529
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/train_stdout.log",
+      "sha256": "5a718b8ff53f84731986640ff4c080d88ae01686508dfdb26431efe9eec84a6b",
+      "bytes": 5220
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/training_curves.png",
+      "sha256": "23f79ce4dc1acf6e2fc22d16712c387199b831226df2dfd33c84c5d134a8d6f1",
+      "bytes": 234095
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/training_log.csv",
+      "sha256": "2d867cba19787d9042c77d67daed6d4e2df82b2db09603a62c3a373fdf9c56d4",
+      "bytes": 113533
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances/validation_log.csv",
+      "sha256": "72615b0d7c1d9303358353827ec8bd402396262d57464193199f2380760a7ee6",
+      "bytes": 483
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/evaluation_200/baseline_comparison.png",
+      "sha256": "ac9d9a56697b35b5d2db9b0c964cf9ca22c339681f8ff3a5edd5ffdd92decdfe",
+      "bytes": 72063
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/evaluation_200/baseline_trajectory.png",
+      "sha256": "98c53a4b65bf9d8d5812f06873018b06010e204b13ac46e8f723bdfd57ad4d4d",
+      "bytes": 78400
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/evaluation_200/dqn_trajectory.png",
+      "sha256": "10026004664c748cddfa437dd4066167b422b1a90b602898442d333b3999f9fc",
+      "bytes": 91722
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/evaluation_200/evaluation_results.csv",
+      "sha256": "4a2afdda24d26f54f6c492f564d77faaa7db08cb76e46f2f8c211f31041b491a",
+      "bytes": 63214
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/harborpilot_dqn_best.pt",
+      "sha256": "d44c563a681b7907710ab9739bb42e43f02db3fed13a3ac383130840a8c62ebe",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/harborpilot_dqn_final.pt",
+      "sha256": "2edb31baa33bc969474e8f566485667266786bab3bc4618531fe2c5fe517ce99",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/harborpilot_dqn_latest.pt",
+      "sha256": "3aa20fd97bc4eb87784e236e3e5d5fca354259cb61daba2e66abc4f24e71ffb2",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/train_stdout.log",
+      "sha256": "e8d0494a19da4c1f5b3b16bc12d67aeda04c53db21c30cf7ef5f9e1af848e91c",
+      "bytes": 5343
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/training_curves.png",
+      "sha256": "eb09d5cfcaecc9ea0f2ca8d69b51b2e813d75efea553e4d999b8b687f1e57c65",
+      "bytes": 253944
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/training_log.csv",
+      "sha256": "9b5f19d3bfe75cd34bbc66a66a8ec810c0401f63781c1f7c75c23773172e23e4",
+      "bytes": 109324
+    },
+    {
+      "path": "outputs/phase3_one_obstacle_disturbances_warmstart/validation_log.csv",
+      "sha256": "280a39a0c43a5056e4271ba847ad876c922ac35c2f475868b9ab8051ec293155",
+      "bytes": 478
+    },
+    {
+      "path": "outputs/phase3_warmstart_epsilon160k/harborpilot_dqn_best.pt",
+      "sha256": "bdc93b14aed1f508d4bcd4762ee1f57039a929edf07e543dbc2d34640129ac34",
+      "bytes": 83569
+    },
+    {
+      "path": "outputs/phase3_warmstart_epsilon160k/harborpilot_dqn_final.pt",
+      "sha256": "0eee01fa4026200a1a5430bcddbaa7ba5d7fa33ca1934ed5d3429630b20e4846",
+      "bytes": 83581
+    },
+    {
+      "path": "outputs/phase3_warmstart_epsilon160k/harborpilot_dqn_latest.pt",
+      "sha256": "84a8b68a955ff969c0f526b253ef9a68c2d91dddb606a37be6904b313e4833f8",
+      "bytes": 83657
+    },
+    {
+      "path": "outputs/phase3_warmstart_epsilon160k/train_stdout.log",
+      "sha256": "4a29d3609215893cf847ecc7de1a3aa2d0ec43ce6c4c61777273f8e1c9444371",
+      "bytes": 5226
+    },
+    {
+      "path": "outputs/phase3_warmstart_epsilon160k/training_curves.png",
+      "sha256": "28295559a41283195639cc263f28dbdc78303bdee9122db9276c87b19a4f0bc8",
+      "bytes": 250321
+    },
+    {
+      "path": "outputs/phase3_warmstart_epsilon160k/training_log.csv",
+      "sha256": "76ee920f9f4850813fd84e9e97a8e1d134262de7b8566520efbdf68bc4dcc1dc",
+      "bytes": 112410
+    },
+    {
+      "path": "outputs/phase3_warmstart_epsilon160k/validation_log.csv",
+      "sha256": "22286c298fe2b0cafd87f4df0fff43f8a0a1774cae6009f2103fdc6d09a15a40",
+      "bytes": 483
+    },
+    {
+      "path": "outputs/reproducibility_smoke/baseline_comparison.png",
+      "sha256": "4a3a5c4e4b7de6b3d58050c652347c9df18de332b9464c2cb91796a50c62948e",
+      "bytes": 76129
+    },
+    {
+      "path": "outputs/reproducibility_smoke/baseline_trajectory.png",
+      "sha256": "50dcb75416d64f14ba9fdc7df07a0fc1f381f4957a0267810b1114775335ecf8",
+      "bytes": 93042
+    },
+    {
+      "path": "outputs/reproducibility_smoke/dqn_trajectory.png",
+      "sha256": "1a6d8cd8df1ba5ff43e09dfb71901908080e42b001671de93f24e1eca5a5799a",
+      "bytes": 95941
+    },
+    {
+      "path": "outputs/reproducibility_smoke/evaluation_results.csv",
+      "sha256": "cb31ad46d445d846ba8b3d7e1a1c167d625e32341b97bbeb63109510f52fd5ec",
+      "bytes": 1070
+    },
+    {
+      "path": "outputs/risk_weight_sweep_20261027/RISK_WEIGHT_SWEEP_REPORT.md",
+      "sha256": "7b6747e0f57a7b7ebdb2a31355bf8a80fa09cea3b42a2ac632250a5c832e2ff7",
+      "bytes": 2761
+    },
+    {
+      "path": "outputs/risk_weight_sweep_20261027/risk_weight_sweep.png",
+      "sha256": "47be4f9e5322516984b63aad469bf7212de3ebd2c135326c7a537924653eedb2",
+      "bytes": 106631
+    },
+    {
+      "path": "outputs/risk_weight_sweep_20261027/risk_weight_sweep_summary.csv",
+      "sha256": "5069481a2456e60d6d3ddaea8d0b8ed2ad343b2728b80e7354e4916555efbeff",
+      "bytes": 976
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027/control_risk4_eval/baseline_comparison.png",
+      "sha256": "3d06169ed849a6736f0d4677851eec9d484f0c69ba7028cbb770569c3bb981c1",
+      "bytes": 71201
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027/control_risk4_eval/baseline_trajectory.png",
+      "sha256": "386f2dc9b4dd966e1deb7e2f09a6fd58c7a55957b8438e7962c3fbd824262799",
+      "bytes": 92962
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027/control_risk4_eval/dqn_trajectory.png",
+      "sha256": "72a12b70c2d73a010e34fae0bb05330e92661aa8d521303f3f201e60ca713a72",
+      "bytes": 98378
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027/control_risk4_eval/evaluation_results.csv",
+      "sha256": "116dc965dcb7337ab57e5b399d00ea4230f1a103a976756e4064ae999b3a79af",
+      "bytes": 62671
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027/harborpilot_dqn_best.pt",
+      "sha256": "ae525f6064a52517426f374d6459f1e25c7d8a7fabaf78750200616de6482215",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027/harborpilot_dqn_latest.pt",
+      "sha256": "e7787bc15897f7afe5ba35bb9f239e9c7eea8975199950693db78e83c64d9a62",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027/training_log.csv",
+      "sha256": "dea45429900e35e99c00a0a8a2b55543fb392e5368b5fe5f87a13ff0a7ae028e",
+      "bytes": 84561
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027/validation_log.csv",
+      "sha256": "56487f64d98bcf85f53545a5e5d7df03b6d7d418a766e65a7cc68ef3919fd156",
+      "bytes": 370
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/RISK_WEIGHT_EXPERIMENT.md",
+      "sha256": "bdc1f8f1e7d15ab322988ef212aab417618598ff6f78f8c02871deb8a4c94a4a",
+      "bytes": 3532
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/evaluation_200/baseline_comparison.png",
+      "sha256": "a011e913db50ca3086d3d6192058340ee7575ced0bfe0e64b618967f1726dea8",
+      "bytes": 71241
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/evaluation_200/baseline_trajectory.png",
+      "sha256": "386f2dc9b4dd966e1deb7e2f09a6fd58c7a55957b8438e7962c3fbd824262799",
+      "bytes": 92962
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/evaluation_200/dqn_trajectory.png",
+      "sha256": "343dc5b08cf18ff32ea178be39bc3d419ba2e0786760293a44406785eac8aee4",
+      "bytes": 94414
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/evaluation_200/evaluation_results.csv",
+      "sha256": "a25efc6448917195fd2e72f8a5fdc78e116d1fc870138902d0b2a26bf873eb9b",
+      "bytes": 61635
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/harborpilot_dqn_best.pt",
+      "sha256": "4abb874a0689abeec68bcadc1a374fc32c42d20ddff2d7ff11d94286b8a232b6",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/harborpilot_dqn_final.pt",
+      "sha256": "0b8959d8194059faef9c02f430c4d3471907e115199ef0eee50cdf530d15121f",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/harborpilot_dqn_latest.pt",
+      "sha256": "5a1e82f29d3e98e3db47d4d4f16c2b5c69a42e4995df9f98337b86952908ed57",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/risk_weight_comparison.csv",
+      "sha256": "08e0c4891acdd4ddf075fd17501f7a0269d0f249b4fab5379f82283541359cf9",
+      "bytes": 599
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/risk_weight_outcomes.png",
+      "sha256": "bdf4e2ec972043dbeddeb61d2ad6ef65762b5e85a72236d269eeb29f1f82dfa7",
+      "bytes": 44475
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/train_console.log",
+      "sha256": "e842deda3483974279a6d1a68161b02e4f9cbf70e79c811c23354cc9a2a13cce",
+      "bytes": 5310
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/training_curves.png",
+      "sha256": "f04ab05928fee77b6208d4a188155bb68aa62cc51cab28b64b10e393eb9ad05c",
+      "bytes": 226121
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/training_log.csv",
+      "sha256": "1855d9d9306f880f88078415b69aaf3fccc20793e0d1f923e6acba622216eb2f",
+      "bytes": 110283
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight1_20261027_full/validation_log.csv",
+      "sha256": "a4dff1af23b6ba930094c0d7d120d73ddb522304dfbd570fe0cc2d342fa9ce9c",
+      "bytes": 482
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/evaluation_200/baseline_comparison.png",
+      "sha256": "c11d252d46701e874ac9d0bf93fb06ee73ca59962ca40da64df5eb365627e286",
+      "bytes": 76933
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/evaluation_200/baseline_trajectory.png",
+      "sha256": "386f2dc9b4dd966e1deb7e2f09a6fd58c7a55957b8438e7962c3fbd824262799",
+      "bytes": 92962
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/evaluation_200/dqn_trajectory.png",
+      "sha256": "cb54224118ffb003b8e8f429773bf9cd2873da781104f70f4b6e0c37fffdab25",
+      "bytes": 95889
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/evaluation_200/evaluation_results.csv",
+      "sha256": "59af134a8dcde9c091366dd8c8bffa7f118130038089d2ca87262c64c20e9149",
+      "bytes": 62606
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/harborpilot_dqn_best.pt",
+      "sha256": "6e9c3c3d200280517930bbdf6bb027876471d5f146410ff9879e282c25af9864",
+      "bytes": 83505
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/harborpilot_dqn_final.pt",
+      "sha256": "da749afdd148b8954c69c33901f4c2c40f5015e612d1700deafbd9db2e4313ad",
+      "bytes": 83517
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/harborpilot_dqn_latest.pt",
+      "sha256": "fca3d33a0c1f070e5612eaa8d854e5a4ac2329231e040cb77b2332d616965cdb",
+      "bytes": 83593
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/train_console.log",
+      "sha256": "7d33a69bea271a99e66e0b6a91ad8fa9a219c3a5ea6a0e887f83e050c8532d27",
+      "bytes": 5412
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/training_curves.png",
+      "sha256": "7b069f94e0dad04a20ed26fce534b3f8166c8204a86376eda12ec9abc3da2bf7",
+      "bytes": 268971
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/training_log.csv",
+      "sha256": "23398ad67e1702583efb8b942e0f8f5609c0d2e2d5cdeb026927780b564bbcf7",
+      "bytes": 110414
+    },
+    {
+      "path": "outputs/two_obstacle_riskweight2_20261027/validation_log.csv",
+      "sha256": "0a5dbe998cd55994d100e78f1239345792919c24f94b34f35e2b653ebe2fdab1",
+      "bytes": 474
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "421d73f332b1746d80a5cf7fe23797000d0a0c2a86cdad9e7ab8dcfbdadeb205",
+      "bytes": 39
+    },
+    {
+      "path": "results/FINAL_TEST_COMPARISON.png",
+      "sha256": "1cb646aad1a0eb8d3191fb9de41ef179c1e5ffe92e8f9c7763d18ab21764d462",
+      "bytes": 75643
+    },
+    {
+      "path": "results/FINAL_TEST_RESULTS.csv",
+      "sha256": "af27fc0310eb62dfe148612cdcfd20c446ed2b12fa29df2c0d7a93969af48a2f",
+      "bytes": 62651
+    },
+    {
+      "path": "results/FINAL_TEST_SUMMARY.md",
+      "sha256": "d1d5420b3038da7034604c744ee7e6bdb904a877c26a45aeb33c3d24c1c9f705",
+      "bytes": 977
+    },
+    {
+      "path": "tests/__pycache__/test_agent.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "bd8ebd729f49acbfe241b850aec416b983bd9694bcbe05fc2458df12d8adb338",
+      "bytes": 13417
+    },
+    {
+      "path": "tests/__pycache__/test_environment.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "2b04aa7e192feb786fbad993fbc7815038a379e95641586fcf143d7cd955878a",
+      "bytes": 34154
+    },
+    {
+      "path": "tests/test_agent.py",
+      "sha256": "31c637174810ae1d91a39e7efd0cc2a8d0b535124582a4c4645a9a3a99e9871f",
+      "bytes": 2795
+    },
+    {
+      "path": "tests/test_environment.py",
+      "sha256": "2d6eb7dc38e9d0f625d38c95d70c796956db6c9837f33fb206952a755b57270c",
+      "bytes": 5755
+    }
+  ]
+}

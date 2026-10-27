@@ -1,0 +1,62 @@
+  Fixed diagnostic stage: 1 active obstacle(s).
+Episode    1/1000 | return= -813.21 | success(25)=0% | return(25)=-813.21 | epsilon=0.996
+Episode   25/1000 | return= -379.02 | success(25)=0% | return(25)=-350.19 | epsilon=0.926
+Episode   50/1000 | return= -233.53 | success(25)=0% | return(25)=-493.94 | epsilon=0.848
+Episode   75/1000 | return= -284.63 | success(25)=0% | return(25)=-396.72 | epsilon=0.785
+Episode  100/1000 | return= -243.38 | success(25)=0% | return(25)=-310.79 | epsilon=0.737
+  Validation: success=0%, collision=100%, discounted return=-95.3, final distance=160.9
+  Saved best checkpoint using lexicographic validation score.
+Episode  125/1000 | return= -199.24 | success(25)=0% | return(25)=-254.81 | epsilon=0.705
+Episode  150/1000 | return= -194.51 | success(25)=0% | return(25)=-265.88 | epsilon=0.666
+Episode  175/1000 | return= -204.05 | success(25)=0% | return(25)=-221.29 | epsilon=0.641
+Episode  200/1000 | return= -227.77 | success(25)=0% | return(25)=-229.01 | epsilon=0.612
+  Validation: success=0%, collision=100%, discounted return=-104.0, final distance=170.1
+Episode  225/1000 | return= -259.10 | success(25)=0% | return(25)=-208.54 | epsilon=0.587
+Episode  250/1000 | return= -209.60 | success(25)=0% | return(25)=-211.40 | epsilon=0.562
+Episode  275/1000 | return= -333.26 | success(25)=4% | return(25)=-227.77 | epsilon=0.515
+Episode  300/1000 | return= -222.97 | success(25)=12% | return(25)=-181.96 | epsilon=0.480
+  Validation: success=0%, collision=100%, discounted return=-95.6, final distance=168.2
+Episode  325/1000 | return= -194.36 | success(25)=4% | return(25)=-182.70 | epsilon=0.448
+Episode  350/1000 | return= -267.38 | success(25)=8% | return(25)=-174.93 | epsilon=0.418
+Episode  375/1000 | return= -203.16 | success(25)=4% | return(25)=-208.50 | epsilon=0.361
+Episode  400/1000 | return= -155.45 | success(25)=0% | return(25)=-195.95 | epsilon=0.313
+  Validation: success=15%, collision=85%, discounted return=-38.2, final distance=54.9
+  Saved best checkpoint using lexicographic validation score.
+Episode  425/1000 | return= -187.56 | success(25)=4% | return(25)=-164.74 | epsilon=0.241
+Episode  450/1000 | return= -166.16 | success(25)=16% | return(25)=-106.82 | epsilon=0.178
+Episode  475/1000 | return=    2.93 | success(25)=28% | return(25)= -23.10 | epsilon=0.104
+Episode  500/1000 | return=  -99.01 | success(25)=16% | return(25)= -87.84 | epsilon=0.050
+  Validation: success=0%, collision=90%, discounted return=-65.9, final distance=131.7
+Episode  525/1000 | return=  -37.94 | success(25)=12% | return(25)= -56.42 | epsilon=0.050
+Episode  550/1000 | return=  113.73 | success(25)=48% | return(25)=  17.74 | epsilon=0.050
+Episode  575/1000 | return=   32.70 | success(25)=32% | return(25)= -42.52 | epsilon=0.050
+Episode  600/1000 | return=   10.74 | success(25)=56% | return(25)=  30.67 | epsilon=0.050
+  Validation: success=100%, collision=0%, discounted return=5.9, final distance=15.1
+  Saved best checkpoint using lexicographic validation score.
+Episode  625/1000 | return=  146.84 | success(25)=92% | return(25)= 141.09 | epsilon=0.050
+Episode  650/1000 | return=   21.03 | success(25)=80% | return(25)= 126.23 | epsilon=0.050
+Episode  675/1000 | return=  156.85 | success(25)=60% | return(25)=  96.42 | epsilon=0.050
+Episode  700/1000 | return=   18.76 | success(25)=32% | return(25)=  70.47 | epsilon=0.050
+  Validation: success=100%, collision=0%, discounted return=21.9, final distance=13.0
+  Saved best checkpoint using lexicographic validation score.
+Episode  725/1000 | return=    1.26 | success(25)=12% | return(25)=   4.30 | epsilon=0.050
+Episode  750/1000 | return=   24.67 | success(25)=4% | return(25)=-137.61 | epsilon=0.050
+Episode  775/1000 | return= -121.18 | success(25)=0% | return(25)=-103.45 | epsilon=0.050
+Episode  800/1000 | return=    8.05 | success(25)=4% | return(25)= -50.00 | epsilon=0.050
+  Validation: success=0%, collision=0%, discounted return=-37.0, final distance=48.0
+Episode  825/1000 | return=  -16.25 | success(25)=28% | return(25)=  30.74 | epsilon=0.050
+Episode  850/1000 | return= -201.71 | success(25)=56% | return(25)=  85.54 | epsilon=0.050
+Episode  875/1000 | return=   21.87 | success(25)=36% | return(25)=  21.46 | epsilon=0.050
+Episode  900/1000 | return=    6.42 | success(25)=4% | return(25)= -11.30 | epsilon=0.050
+  Validation: success=0%, collision=0%, discounted return=-11.9, final distance=32.3
+Episode  925/1000 | return= -167.28 | success(25)=12% | return(25)= -11.32 | epsilon=0.050
+Episode  950/1000 | return= -186.22 | success(25)=0% | return(25)= -30.03 | epsilon=0.050
+Episode  975/1000 | return=   62.98 | success(25)=12% | return(25)=  -5.58 | epsilon=0.050
+Episode 1000/1000 | return=  187.75 | success(25)=48% | return(25)= 100.49 | epsilon=0.050
+  Validation: success=90%, collision=0%, discounted return=13.5, final distance=24.6
+
+Saved training log: outputs/phase2_hybrid_reward_v3_clean/training_log.csv
+Saved learning curves: outputs/phase2_hybrid_reward_v3_clean/training_curves.png
+Saved validation log: outputs/phase2_hybrid_reward_v3_clean/validation_log.csv
+Saved model: outputs/phase2_hybrid_reward_v3_clean/harborpilot_dqn_final.pt
+Final rolling success rate: 48%
